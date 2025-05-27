@@ -65,9 +65,7 @@ pip install -r req.txt
 
 ---
 
-## 📸 Sample
 
-![Sample UI Screenshot](#) <!-- Add your screenshot path here if available -->
 
 ---
 
