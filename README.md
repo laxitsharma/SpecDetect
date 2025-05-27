@@ -1,5 +1,4 @@
-# SpecDetect
-Real-time glasses detection app using OpenCV and Tkinter — capture, train, and detect spectacles with ease.
+
 # SpecDetect
 
 **SpecDetect** is a desktop GUI application that uses computer vision to detect whether a person is wearing glasses. It leverages OpenCV for face and eyeglass detection, and provides an intuitive interface for collecting data, training a recognition model, and testing it in real time.
@@ -28,33 +27,32 @@ Real-time glasses detection app using OpenCV and Tkinter — capture, train, and
 Install dependencies:
 ```bash
 pip install -r req.txt
+```
 
+---
 
-📦 Usage
-Run the app:
+## 📦 Usage
 
-bash
-Copy
-Edit
-python glasses_detection_ui.py
-Capture Data:
+1. **Run the app**:
+   ```bash
+   python glasses_detection_ui.py
+   ```
 
-Click "Start With Glasses" or "Start Without Glasses"
+2. **Capture Data**:
+   - Click "Start With Glasses" or "Start Without Glasses"
+   - Images will be saved automatically every 0.5s
 
-Images will be saved automatically every 0.5s
+3. **Train Model**:
+   - Click "Train Model" once you have enough samples
 
-Train Model:
+4. **Test Model**:
+   - Click "Test Detection" and view live predictions
 
-Click "Train Model" once you have enough samples
+---
 
-Test Model:
+## 📁 Project Structure
 
-Click "Test Detection" and view live predictions
-
-📁 Project Structure
-pgsql
-Copy
-Edit
+```
 .
 ├── glasses_detection_ui.py
 ├── haarcascade_frontalface_default.xml
@@ -63,3 +61,16 @@ Edit
 ├── data/
 │   ├── with_glasses/
 │   └── without_glasses/
+```
+
+---
+
+## 📸 Sample
+
+![Sample UI Screenshot](#) <!-- Add your screenshot path here if available -->
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
